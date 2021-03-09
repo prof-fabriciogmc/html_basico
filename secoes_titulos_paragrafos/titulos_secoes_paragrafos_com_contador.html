@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<title>Utilizando contadores em títulos de seções.</title>
+<style>
+/* Esse código exemplifica a criação de contadores
+   para os títulos das seções. 
+   Autor: Fabrício G. M. de Carvalho. 
+*/
+body{
+	counter-reset: h1_counter; /* cria um contador para h1 */
+}
+
+/* :: é um pseudoelemento que acrescenta um conteúdo antes de h1 */
+h1::before{
+	counter-reset: h2_counter; /* cria um contador para h2 */
+	counter-increment: h1_counter; /* incrementa o valor do contador */
+	content: counter(h1_counter)'. '; /* acrescenta o conteúdo com o . */
+}
+
+h2::before{
+	counter-increment: h2_counter;
+	content: counter(h1_counter)'.'counter(h2_counter)'. ';
+}	
+</style>
+
+</head>
+<body>
+<section>
+<h1>Esportes</h1>
+<p>Pandemia gera suspensão
+das olimpíadas de 2020.</p>
+</section>
+<section>
+<h1>Política</h1>
+<section>
+<h2>No Brasil</h2>
+<p>Brasil não consegue vacinar nem 5% da população com 2 doses
+até o final de março de 2021.</p>
+</section>
+<section>
+<h2>Nos Estados</h2>
+<p>Governadores querem comprar
+vacinas diretamente dos fabricantes sem depender do SUS.</p>
+</section>
+</section>
+
+</body>
+</html>
