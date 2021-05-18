@@ -10,9 +10,18 @@ tag de metadados informando a codificação de caracteres, necessário,
 dado que a língua portuguesa usa caracteres acentuados e isso pode gerar
 um comportamento indesejável em alguns navegadores.
 
-* secoes_titulos_paragrafos: Contém dois exemplos envolvendo títulos, parágrafos e seções. O arquivo titulos_secoes_paragrafos_com_contador.html exemplifica o uso de CSS direto na marcação HTML para gerar numeração automática das seções, respeitando a hierarquia entre os títulos.
+* secoes_titulos_paragrafos: Contém dois exemplos envolvendo títulos, 
+parágrafos e seções. O arquivo titulos_secoes_paragrafos_com_contador.html
+exemplifica o uso de CSS direto na marcação HTML para gerar numeração
+automática das seções, respeitando a hierarquia entre os títulos.
 
-* listas_ancoras: Exemplos de listas ordenadas, não ordenadas e listas de definição. Os exemplos são acessados via links a partir do arquivo lista_ancoras.html.
+* listas_ancoras: Exemplos de listas ordenadas, não ordenadas e listas de
+definição. Os exemplos são acessados via links a partir do arquivo 
+lista_ancoras.html.
 
+* imagens: Inserção de imagens raster e vetoriais. Utilização de mais
+de uma fonte de imagem, aplicável ao design responsivo.
 
+* tabelas: Exemplos de tabelas com cabeçalhos em linhas e colunas. Títulos,
+colunas e linhas expandidas.
 
