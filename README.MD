@@ -25,3 +25,6 @@ de uma fonte de imagem, aplicável ao design responsivo.
 * tabelas: Exemplos de tabelas com cabeçalhos em linhas e colunas. Títulos,
 colunas e linhas expandidas.
 
+* audio_e_video: Exemplo de inserção de mídia de áudio e vídeo com
+controles apropriados.
+
