@@ -1,0 +1,15 @@
+section{
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+.texto_fundo_preto{
+	background-color: black;
+	color: white;
+}
+
+.texto_fundo_amarelo{
+	background-color: yellow;
+	color: black;
+}
