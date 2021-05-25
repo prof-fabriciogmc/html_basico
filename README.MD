@@ -28,3 +28,6 @@ colunas e linhas expandidas.
 * audio_e_video: Exemplo de inserção de mídia de áudio e vídeo com
 controles apropriados.
 
+* estilos_e_scripts: Inserção de estilos via arquivo externo css e de
+programas em script para o front end (JavaScript).
+
